@@ -1,0 +1,33 @@
+
+state={
+	id=430
+	name="STATE_430"
+
+	history={
+		add_core_of = BAN
+		owner = RAJ
+		victory_points = {
+			11929 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			11968 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = PAK
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		4616 7179 7662 9991 9993 10389 10416 10443 11929 11968 12010 12423 13208 
+	}
+	manpower=31973300
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

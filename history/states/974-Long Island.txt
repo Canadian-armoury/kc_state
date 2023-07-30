@@ -1,0 +1,32 @@
+state={
+	id=974
+	name="STATE_974"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 3
+			air_base = 10
+			3878 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			3878 30
+		}
+
+	}
+	provinces={
+		859 3878 
+	}
+	manpower=5103638
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

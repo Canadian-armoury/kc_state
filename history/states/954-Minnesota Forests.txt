@@ -1,0 +1,25 @@
+state={
+	id=954
+	name="STATE_954"
+	resources={
+		steel=45.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+
+	}
+	provinces={
+		1734 6767 7896 11667 12550 12588 12597 12693 
+	}
+	manpower=563952
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

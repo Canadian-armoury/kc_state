@@ -1,0 +1,34 @@
+state={
+	id=934
+	name="STATE_934"
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 2
+
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				synthetic_refinery = 1
+				anti_air_building = 3
+				dockyard = 3
+				arms_factory = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		317 3231 11366 
+	}
+	manpower=1148150
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

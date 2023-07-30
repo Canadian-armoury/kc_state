@@ -1,0 +1,28 @@
+state={
+	id=924
+	name="STATE_924"
+	
+	resources={
+		oil=90.000
+		aluminium=10.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		2055 3875 3972 9773 9908 12301 12848 12893 
+	}
+	manpower=890670
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

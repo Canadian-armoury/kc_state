@@ -1,0 +1,31 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		oil=7.000
+		aluminium=15.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+		victory_points = {
+			4975 1 
+		}
+
+	}
+
+	provinces={
+		1972 2102 4975 10642 10645 10867 12552 12684 
+	}
+	manpower=223316
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

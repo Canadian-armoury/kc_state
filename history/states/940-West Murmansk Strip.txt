@@ -1,0 +1,26 @@
+state={
+	id=940
+	name="STATE_940"
+	resources={
+		steel=4.000
+		chromium=2.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		15 74 142 6117 9039 9123 9203 11128 11183 
+	}
+	manpower=4765
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

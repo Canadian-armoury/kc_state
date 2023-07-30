@@ -1,0 +1,35 @@
+
+state={
+	id=378
+	name="STATE_378"
+	resources={
+		oil=80.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		941 1432 1601 1651 4518 4657 6694 6699 6876 7667 9855 9911 10387 10483 11763 
+	}
+	manpower=378900
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		aluminium=8.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		850 1793 6897 7821 10573 11814 12765 
+	}
+	manpower=200572
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=8.000
+}

@@ -1,0 +1,25 @@
+state={
+	id=972
+	name="STATE_972"
+	
+	resources={
+		oil=6.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+
+	}
+	provinces={
+		868 1658 6887 7684 7999 9792 10535 
+	}
+	manpower=200890
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

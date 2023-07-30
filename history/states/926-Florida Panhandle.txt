@@ -1,0 +1,26 @@
+state={
+	id=926
+	name="STATE_926"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			10352 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		10352 10380 10407 
+	}
+	manpower=547902
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

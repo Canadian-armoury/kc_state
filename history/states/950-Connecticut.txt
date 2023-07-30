@@ -1,0 +1,25 @@
+state={
+	id=950
+	name="STATE_950"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 4
+			air_base = 10
+
+		}
+		add_core_of = USA
+
+	}
+	provinces={
+		6909 9847 9850 
+	}
+	manpower=1606903
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

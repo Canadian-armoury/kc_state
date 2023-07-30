@@ -1,0 +1,26 @@
+state={
+	id=944
+	name="STATE_944"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			4908 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = MEX
+
+	}
+
+	provinces={
+		4908 4977 8033 10848 
+	}
+	manpower=207830
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

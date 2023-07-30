@@ -1,0 +1,28 @@
+
+state={
+	id=914
+	name="STATE_914"
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11580 1 
+		}
+		add_core_of = YUG
+		add_core_of = SER
+
+	}
+
+	provinces={
+		11577 11580 
+	}
+	manpower=82450
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

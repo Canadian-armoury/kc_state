@@ -1,0 +1,25 @@
+state={
+	id=957
+	name="STATE_957"
+	
+	resources={
+		tungsten=11.000
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+
+	}
+	provinces={
+		1854 1857 4838 11712 12676 
+	}
+	manpower=153900
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
