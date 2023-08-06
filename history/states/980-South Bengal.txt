@@ -1,10 +1,24 @@
 state={
 	id=980
 	name="STATE_980"
+	
+	history={
+		add_core_of = BAN
+		owner = RAJ
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = PAK
+		add_core_of = RAJ
+
+	}
+	
 	provinces={
 		2843 4162 7078 7124 9935 10035 11911 
 	}
-	manpower=0
+	manpower=10938409
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

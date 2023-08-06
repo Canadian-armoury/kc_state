@@ -1,10 +1,30 @@
 state={
 	id=1028
 	name="STATE_1028"
+
+	history={
+		owner = SWE
+		victory_points = {
+			156 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			130 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SWE
+
+	}
+
 	provinces={
 		114 156 3045 3148 9117 9193 11091 11197 
 	}
-	manpower=0
+	manpower=250687
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

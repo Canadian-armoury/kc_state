@@ -2,10 +2,21 @@
 state={
 	id=1031
 	name="STATE_1031"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = NOR
+
+	}
+
 	provinces={
 		3021 6114 9032 9135 9157 9227 11028 11078 11135 11206 
 	}
-	manpower=0
+	manpower=193585
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

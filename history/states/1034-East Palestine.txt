@@ -2,10 +2,25 @@
 state={
 	id=1034
 	name="STATE_1034"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			1086 1 
+		}
+		add_core_of = PAL
+		add_claim_by = ISR
+
+	}
+
 	provinces={
 		1086 7107 
 	}
-	manpower=0
+	manpower=23850
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

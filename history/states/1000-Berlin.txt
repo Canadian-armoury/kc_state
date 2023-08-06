@@ -1,10 +1,34 @@
 state={
 	id=1000
 	name="Berlin"
+
+	history={
+		owner = GER
+		victory_points = {
+			6521 50 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
 	provinces={
 		6521
 	}
-	manpower=0
+	manpower=4304759
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
  state_category=megalopolis

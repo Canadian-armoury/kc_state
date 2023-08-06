@@ -1,10 +1,36 @@
 state={
 	id=983
 	name="STATE_983"
+	
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			1069 3 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			4205 = {
+				naval_base = 2
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
 	provinces={
 		1104 1184 1200 4186 4205 7105 10018 
 	}
-	manpower=0
+	manpower=8903740
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

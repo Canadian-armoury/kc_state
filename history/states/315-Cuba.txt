@@ -3,8 +3,7 @@ state={
 	id=315
 	name="STATE_315"
 	resources={
-		steel=3.000
-		chromium=90.000
+		chromium=70.000
 	}
 
 	history={
@@ -12,12 +11,8 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 1
 			air_base = 1
-			7622 = {
-				naval_base = 3
-
-			}
 			1550 = {
 				naval_base = 1
 
@@ -25,9 +20,6 @@ state={
 
 		}
 		add_core_of = CUB
-		victory_points = {
-			7622 5 
-		}
 		victory_points = {
 			7590 1 
 		}
@@ -37,7 +29,7 @@ state={
 	provinces={
 		1550 4476 7451 7546 7590 10374 12347 
 	}
-	manpower=3607919
+	manpower=1207919
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

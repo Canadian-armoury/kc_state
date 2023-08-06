@@ -10,17 +10,8 @@ state={
 	history={
 		add_core_of = VIN
 		owner = FRA
-		victory_points = {
-			4075 1 
-		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			air_base = 1
-			1185 = {
-				naval_base = 1
-
-			}
 
 		}
 
@@ -29,7 +20,7 @@ state={
 	provinces={
 		1248 1302 4255 4379 4397 7229 7280 9988 10016 10137 10180 10309 11909 11936 12297 
 	}
-	manpower=11528000
+	manpower=5528000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

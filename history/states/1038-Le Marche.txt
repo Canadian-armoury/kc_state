@@ -1,10 +1,29 @@
 state={
 	id=1038
 	name="STATE_1038"
+
+	history={
+		owner = ITA
+		victory_points = {
+			925 1 
+		}
+		buildings = {
+			infrastructure = 3
+			925 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = PAP
+
+	}
+
 	provinces={
 		925 967 6926 9838 11790 11861 
 	}
-	manpower=0
+	manpower=1459789
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

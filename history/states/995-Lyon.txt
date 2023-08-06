@@ -1,10 +1,39 @@
 state={
 	id=995
 	name="STATE_995"
+	resources={
+		steel=40.000
+		aluminium=20.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			6613 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 4
+
+		}
+		add_core_of = OCC
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 1
+				industrial_complex = 3
+
+			}
+
+		}
+
+	}
+
 	provinces={
 		3770 6613 6786 9728 9732 11593 11716 
 	}
-	manpower=0
+	manpower=1739400
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

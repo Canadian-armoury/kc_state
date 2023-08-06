@@ -7,25 +7,16 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			air_base = 6
-			12211 = {
-				naval_base = 3
-
-			}
 
 		}
 		add_core_of = USA
-		victory_points = {
-			3513 1 
-		}
 
 	}
 
 	provinces={
 		505 528 3471 4347 7721 10151 10305 10625 11495 11733 12281 
 	}
-	manpower=953785
+	manpower=213785
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

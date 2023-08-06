@@ -1,10 +1,21 @@
 state={
 	id=986
 	name="STATE_986"
+
+	history={
+		owner = NEP
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = NEP
+
+	}
+
 	provinces={
 		4386 7374 10825 10910 
 	}
-	manpower=0
+	manpower=956090
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

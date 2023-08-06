@@ -1,10 +1,39 @@
 state={
 	id=1030
 	name="STATE_1030"
+
+	history={
+		owner = NOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			9296 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+			53 = {
+				naval_base = 1
+				coastal_bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			9296 1 
+		}
+		victory_points = {
+			53 1 
+		}
+		add_core_of = NOR
+
+	}
+
 	provinces={
 		53 137 3049 6176 9096 9196 9296 11176 11367 
 	}
-	manpower=0
+	manpower=516380
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

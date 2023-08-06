@@ -1,10 +1,24 @@
 state={
 	id=1022
 	name="STATE_1022"
+
+	history={
+		owner = POL
+		victory_points = {
+			3254 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = POL
+
+	}
+
 	provinces={
 		400 3254 11274 11329 11357 
 	}
-	manpower=0
+	manpower=638578
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

@@ -4,19 +4,14 @@ state={
 	name="STATE_155"
 	resources={
 		oil=1.000
-		aluminium=60.000
+		aluminium=30.000
 	}
 
 	history={
 		owner = HUN
-		victory_points = {
-			11610 5 
-		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
-			arms_factory = 1
-			air_base = 3
+			industrial_complex = 1
 
 		}
 		add_core_of = HUN
@@ -26,7 +21,7 @@ state={
 	provinces={
 		701 3683 6703 9676 11663 
 	}
-	manpower=2197605
+	manpower=614600
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

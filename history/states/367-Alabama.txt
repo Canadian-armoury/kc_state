@@ -7,7 +7,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			industrial_complex = 2
 			7480 = {
 				naval_base = 3
 
@@ -23,7 +23,7 @@ state={
 		}
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 4
+				industrial_complex = 3
 
 			}
 
@@ -32,9 +32,9 @@ state={
 	}
 
 	provinces={
-		1587 4622 4756 5059 7422 7480 10192 12735 12803 
+		1587 4594 4622 4756 5059 7422 7480 10192 12735 12803 
 	}
-	manpower=2646247
+	manpower=1846247
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

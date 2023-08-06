@@ -10,29 +10,16 @@ state={
 		owner = CAN
 		buildings = {
 			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 1
-			air_base = 3
-			12149 = {
-				naval_base = 6
-
-			}
-
+			arms_factory = 1
 		}
 		add_core_of = CAN
-		victory_points = {
-			4345 20 
-		}
-		victory_points = {
-			12149 3 
-		}
 
 	}
 
 	provinces={
 		1284 4305 4417 4422 7289 7345 7433 10174 10230 10320 12291 
 	}
-	manpower=2432754
+	manpower=1332754
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

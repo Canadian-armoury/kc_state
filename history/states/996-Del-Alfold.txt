@@ -1,10 +1,22 @@
 state={
 	id=996
 	name="STATE_996"
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = HUN
+
+	}
+
 	provinces={
 		679 6670 6700 9656 11625 11646 
 	}
-	manpower=0
+	manpower=317550
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

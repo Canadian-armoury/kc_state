@@ -2,10 +2,21 @@
 state={
 	id=1016
 	name="STATE_1016"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CAN
+
+	}
+
 	provinces={
 		736 3498 4739 9669 11440 
 	}
-	manpower=0
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

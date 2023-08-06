@@ -4,7 +4,27 @@ state={
 	provinces={
 		1408 4428 
 	}
-	manpower=0
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			air_base = 3
+			1408 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = CAN
+		victory_points = {
+			1408 15 
+		}
+
+	}
+
+	manpower=425350
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -1,10 +1,30 @@
 state={
 	id=1024
 	name="STATE_1024"
+
+	history={
+		owner = GER
+		victory_points = {
+			6282 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6282 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = GER
+		add_core_of = KSH
+
+	}
+
 	provinces={
 		6282 6309 6334 6390 9277 9334 
 	}
-	manpower=0
+	manpower=697400
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

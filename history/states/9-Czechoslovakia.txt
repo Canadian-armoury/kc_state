@@ -9,9 +9,6 @@ state={
 	history={
 		owner = CZE
 		victory_points = {
-			11542 30 
-		}
-		victory_points = {
 			6418 5 
 		}
 		victory_points = {
@@ -19,10 +16,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			arms_factory = 6
+			arms_factory = 3
 			industrial_complex = 1
-			anti_air_building = 5
-			air_base = 5
 
 		}
 		add_core_of = CZE
@@ -37,7 +32,7 @@ state={
 	provinces={
 		6418 6592 9421 9541 9569 11556 
 	}
-	manpower=4492600
+	manpower=2892600
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000

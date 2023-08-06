@@ -1,10 +1,37 @@
 state={
 	id=998
 	name="STATE_998"
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			688 10 
+		}
+		victory_points = {
+			9665 3 
+		}
+		victory_points = {
+			732 10 
+		}
+		add_core_of = AUS
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+
+	}
+
 	provinces={
 		688 732 3684 3703 6552 6691 6708 6723 9665 
 	}
-	manpower=0
+	manpower=1675377
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

@@ -3,9 +3,7 @@ state={
 	id=599
 	name="STATE_599"
 	resources={
-		tungsten=15.000
 		steel=15.000
-		chromium=3.000
 	}
 
 	history={
@@ -15,13 +13,8 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 1
-			air_base = 2
+			industrial_complex = 1
 
-		}
-		victory_points = {
-			10404 3 
 		}
 		1938.10.25 = {
 			if = {
@@ -46,7 +39,7 @@ state={
 	provinces={
 		1469 1625 4077 4085 4134 4628 4656 7650 10431 10459 12436 
 	}
-	manpower=8685200
+	manpower=3385200
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

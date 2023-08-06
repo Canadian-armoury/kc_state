@@ -1,10 +1,23 @@
+
 state={
 	id=1013
 	name="STATE_1013"
-	provinces={
-		492 860 4594 7640 10520 11509 11942 
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+
 	}
-	manpower=0
+
+	provinces={
+		492 860 7640 10520 11509 11942 
+	}
+	manpower=843690
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000
