@@ -1,10 +1,28 @@
 state={
 	id=1050
 	name="STATE_1050"
+	resources={
+		chromium=14.000
+	}
+
+	history={
+		victory_points = {
+			1205 1 
+		}
+		owner = GRE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = GRE
+
+	}
+
 	provinces={
 		1106 1205 11786 11895 12001 
 	}
-	manpower=0
+	manpower=324578
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

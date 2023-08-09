@@ -1,10 +1,22 @@
 state={
 	id=1052
 	name="STATE_1052"
+
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = OMA
+
+	}
+
 	provinces={
 		2018 2059 2103 8002 
 	}
-	manpower=0
+	manpower=130000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

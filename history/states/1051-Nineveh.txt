@@ -1,10 +1,28 @@
 state={
 	id=1051
 	name="STATE_1051"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			10106 5 
+		}
+		add_core_of = IRQ
+		add_core_of = KUR
+
+	}
+
 	provinces={
 		1600 1938 10106 10804 12372 
 	}
-	manpower=0
+	manpower=637485
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

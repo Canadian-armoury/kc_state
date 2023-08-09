@@ -3,17 +3,14 @@ state={
 	id=336
 	name="STATE_336"
 	resources={
-		rubber=342.000
-		steel=20.000
-		tungsten=189.000
-		aluminium=15.000
+		rubber=332.000
+		steel=19.000
+		tungsten=184.000
+		aluminium=14.000
 	}
 
 	history={
 		owner = MAL
-		victory_points = {
-			12299 10 
-		}
 		victory_points = {
 			7329 1 
 		}
@@ -22,13 +19,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			air_base = 6
-			12299 = {
-				naval_base = 8
-				coastal_bunker = 3
-
-			}
 			7329 = {
 				naval_base = 1
 
@@ -46,7 +36,7 @@ state={
 	provinces={
 		1291 1348 1364 1376 1392 4310 4355 4367 4384 4412 4424 7329 7342 7399 7427 10227 10297 10313 12144 12199 12215 12255 12271 
 	}
-	manpower=2893200
+	manpower=1393200
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

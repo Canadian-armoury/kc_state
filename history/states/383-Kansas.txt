@@ -11,7 +11,6 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
-			industrial_complex = 1
 
 		}
 		add_core_of = USA
@@ -22,20 +21,14 @@ state={
 			}
 
 		}
-		victory_points = {
-			4740 3 
-		}
-		victory_points = {
-			7834 1 
-		}
 
 	}
 
 	provinces={
 		1753 4586 4757 4814 4871 10340 10532 12024 12513 
 	}
-	manpower=1880998
+	manpower=880998
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=0.000
 }

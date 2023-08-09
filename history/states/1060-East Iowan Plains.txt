@@ -1,10 +1,23 @@
 state={
 	id=1060
 	name="STATE_1060"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = USA
+
+	}
+
 	provinces={
 		1831 4691 7306 7458 7539 9910 10478 11971 12418 
 	}
-	manpower=0
+	manpower=1347050
 	buildings_max_level_factor=1.000
+	state_category=town
 	local_supplies=0.000
 }

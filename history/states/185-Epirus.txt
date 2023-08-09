@@ -3,7 +3,6 @@ state={
 	id=185
 	name="STATE_185"
 	resources={
-		chromium=14.000
 		steel=14.000
 	}
 
@@ -14,13 +13,9 @@ state={
 		victory_points = {
 			3914 3 
 		}
-		victory_points = {
-			1205 1 
-		}
 		owner = GRE
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 			air_base = 3
 			9805 = {
 				naval_base = 1
@@ -35,7 +30,7 @@ state={
 	provinces={
 		841 3914 3980 9805 9837 9916 10203 
 	}
-	manpower=760900
+	manpower=440900
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=9.000

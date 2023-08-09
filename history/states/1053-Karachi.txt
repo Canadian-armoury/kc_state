@@ -1,10 +1,29 @@
 state={
 	id=1053
 	name="STATE_1053"
+
+	history={
+		owner = RAJ
+		victory_points = {
+			3456 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3456 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = PAK
+
+	}
+
 	provinces={
 		3456 4003 10108 
 	}
-	manpower=0
+	manpower=2648500
 	buildings_max_level_factor=1.000
 	state_category=large_city
 	local_supplies=0.000
