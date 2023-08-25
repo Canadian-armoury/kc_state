@@ -3855,6 +3855,8 @@ country_event = {
 		set_country_flag = GER_rhineland_backed_down
 		42 = { set_demilitarized_zone = yes }
 		51 = { set_demilitarized_zone = yes }
+		911 = { set_demilitarized_zone = yes }
+		992 = { set_demilitarized_zone = yes }
 		add_timed_idea = {
 			idea = rhineland_challenge_met
 			days = 183
@@ -3928,6 +3930,8 @@ country_event = {
 		add_war_support = -0.2 #That was scary for a moment there!
 		42 = { set_demilitarized_zone = yes }
 		51 = { set_demilitarized_zone = yes }
+		911 = { set_demilitarized_zone = yes }
+		992 = { set_demilitarized_zone = yes }
 		add_timed_idea = {
 			idea = rhineland_challenge_met
 			days = 183

@@ -2740,6 +2740,7 @@ focus_tree = {
 			42 = { is_demilitarized_zone = no }
 			51 = { is_demilitarized_zone = no }
 			911 = { is_demilitarized_zone = no }
+			992 = { is_demilitarized_zone = no }
 		}
 		ai_will_do = {
 			factor = 10
@@ -2749,6 +2750,7 @@ focus_tree = {
 			42 = { set_demilitarized_zone = no }
 			51 = { set_demilitarized_zone = no }
 			911 = { set_demilitarized_zone = no }
+			992 = { set_demilitarized_zone = no }
 			set_global_flag = rhineland_remilitarized
 			custom_effect_tooltip = GER_rhineland_ultimatum
 			add_political_power = 120
@@ -6153,6 +6155,8 @@ focus_tree = {
 			}
 			42 = { set_demilitarized_zone = no }
 			51 = { set_demilitarized_zone = no }
+			911= { set_demilitarized_zone = no }
+			992 = { set_demilitarized_zone = no }
 			add_political_power = 120
 			add_named_threat = { threat = 5 name = GER_oppose_hitler }
 			country_event = { id = wtt_germany.1 }

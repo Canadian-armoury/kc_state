@@ -1,0 +1,380 @@
+on_actions = {
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = RHI
+						is_subject_of = GER
+						}
+					 }
+				set_cosmetic_TAG = RHI_GER
+			}
+			
+		
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = RHI
+						is_subject_of = GER
+					}
+				}
+				set_cosmetic_TAG = RHI_GER
+			}
+			
+		
+		}
+	}
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						original_TAG = RHI
+					}
+				}
+				drop_cosmetic_TAG = yes
+			}
+			
+		
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_TAG = RHI
+					}
+				}
+				drop_cosmetic_TAG = yes
+			}
+		}
+	}
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NEE
+						is_subject_of = USA
+						}
+					 }
+				set_cosmetic_TAG = NEE_USA
+			}
+			
+		
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NEE
+						is_subject_of = USA
+					}
+				}
+				set_cosmetic_TAG = NEE_USA
+			}
+			
+		
+		}
+	}
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						original_TAG = NEE
+					}
+				}
+				drop_cosmetic_TAG = yes
+			}
+			
+		
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_TAG = NEE
+					}
+				}
+				drop_cosmetic_TAG = yes
+			}
+		}
+	}
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = TEX
+						is_subject_of = USA
+						}
+					 }
+				set_cosmetic_TAG = TEX_USA
+			}
+			
+		
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = TEX
+						is_subject_of = USA
+					}
+				}
+				set_cosmetic_TAG = TEX_USA
+			}
+			
+		
+		}
+	}
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						original_TAG = TEX
+					}
+				}
+				drop_cosmetic_TAG = yes
+			}
+			
+		
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_Tag = TAG
+					}
+				}
+				drop_cosmetic_TAG = yes
+			}
+		}
+	}
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = CAL
+						is_subject_of = USA
+						}
+					 }
+				set_cosmetic_tag = CAL_USA
+			}
+			
+		
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = CAL
+						is_subject_of = USA
+					}
+				}
+				set_cosmetic_tag = CAL_USA
+			}
+			
+		
+		}
+	}
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = CAL
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+			
+		
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = CAL
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = CAL
+						is_subject_of = JAP
+						}
+					 }
+				set_cosmetic_tag = CAL_JAP
+			}
+			
+		
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = CAL
+						is_subject_of = JAP
+					}
+				}
+				set_cosmetic_tag = CAL_JAP
+			}
+			
+		
+		}
+	}
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = CAL
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+			
+		
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = CAL
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = CAS
+						is_subject_of = JAP
+						}
+					 }
+				set_cosmetic_tag = CAS_JAP
+			}
+			
+		
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = CAS
+						is_subject_of = JAP
+					}
+				}
+				set_cosmetic_tag = CAS_JAP
+			}
+			
+		
+		}
+	}
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = CAS
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+			
+		
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = CAS
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+	on_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NEE
+						is_subject_of = CAN
+						}
+					 }
+				set_cosmetic_tag = NEE_CAN
+			}
+			
+		
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						TAG = NEE
+						is_subject_of = CAN
+					}
+				}
+				set_cosmetic_tag = NEE_CAN
+			}
+			
+		
+		}
+	}
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = { 
+					AND = { 
+						original_tag = NEE
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+			
+		
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						original_tag = NEE
+					}
+				}
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+}

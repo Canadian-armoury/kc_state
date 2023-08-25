@@ -18,6 +18,7 @@ state={
 
 		}
 		add_core_of = CAN
+		add_core_of = CAS
 		victory_points = {
 			1408 15 
 		}

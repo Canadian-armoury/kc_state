@@ -196,6 +196,7 @@ country_event = {
 		797 = { set_demilitarized_zone = no } 
 		340 = { set_demilitarized_zone = no }
 		915 = { set_demilitarized_zone = no }
+		1049 = { set_demilitarized_zone = no }
 		news_event = { id = bftb_news.201 hours = 6 }
 	}
 }
@@ -215,6 +216,7 @@ country_event = {
 			797 = { set_demilitarized_zone = no } 
 			340 = { set_demilitarized_zone = no }
 			915 = { set_demilitarized_zone = no }
+			1049 = { set_demilitarized_zone = no }
 		}
 	}
 }
@@ -369,6 +371,7 @@ country_event = {
 		797 = { set_demilitarized_zone = no } 
 		340 = { set_demilitarized_zone = no }
 		915 = { set_demilitarized_zone = no }
+		1049 = { set_demilitarized_zone = no }
 		hidden_effect = {
 			news_event = { id = bftb_news.201 hours = 6 }
 		}
@@ -394,6 +397,7 @@ country_event = {
 			797 = { set_demilitarized_zone = no } 
 			340 = { set_demilitarized_zone = no }
 			915 = { set_demilitarized_zone = no }
+			1049 = { set_demilitarized_zone = no }
 			354 = {
 				damage_building = {
 					type = infrastructure
@@ -953,7 +957,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.35
 				capital = 797
-				states = { 797 341 339 354 340 342 }
+				states = { 797 341 339 354 340 342 1049 }
 				keep_unit_leaders = { 
 					901 
 				}
@@ -981,7 +985,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.55
 				capital = 797
-				states = { 797 341 339 354 340 342 343 346 }
+				states = { 797 341 339 354 340 342 343 346 1049}
 				keep_unit_leaders = { 
 					901 
 				}
@@ -1009,7 +1013,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.75
 				capital = 49
-				states = { 797 341 339 354 340 342 343 346 347 49 }
+				states = { 797 341 339 354 340 342 343 346 347 49 1049}
 				keep_unit_leaders = { 
 					901 
 				}

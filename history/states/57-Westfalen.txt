@@ -16,6 +16,7 @@ state={
 
 		}
 		add_core_of = GER
+		add_claim_by = RHI
 		1939.1.1 = {
 			buildings = {
 				radar_station = 1

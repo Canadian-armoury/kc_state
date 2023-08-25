@@ -1,7 +1,7 @@
+
 state={
 	id=957
 	name="STATE_957"
-	
 	resources={
 		tungsten=11.000
 	}
@@ -13,10 +13,12 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = CAS
 
 	}
+
 	provinces={
-		1854 1857 4838 11712 12676 
+		1854 4838 6742 7779 12676 
 	}
 	manpower=153900
 	buildings_max_level_factor=1.000

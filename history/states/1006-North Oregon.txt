@@ -1,3 +1,4 @@
+
 state={
 	id=1006
 	name="STATE_1006"
@@ -15,6 +16,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = CAS
 		victory_points = {
 			3513 1 
 		}
@@ -22,7 +24,7 @@ state={
 	}
 
 	provinces={
-		1414 3513 4274 4328 4380 4826 7398 7865 10183 12183 12211 12553 
+		528 1414 3513 4274 4328 4380 4826 7398 7865 10183 12183 12211 12281 12553 
 	}
 	manpower=742360
 	buildings_max_level_factor=1.000

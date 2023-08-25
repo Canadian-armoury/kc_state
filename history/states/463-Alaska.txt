@@ -20,6 +20,8 @@ state={
 		victory_points = {
 			13091 3 
 		}
+		add_claim_by = CAS
+
 
 	}
 

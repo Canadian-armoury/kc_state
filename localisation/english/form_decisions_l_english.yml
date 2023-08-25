@@ -1,0 +1,17 @@
+﻿l_english:
+ form_gc_usa_coring_states_tt:0 "Gain cores on all §YAmerican§! states required.\n"
+ form_gc_can_coring_states_tt:0 "Gain cores on Newfoundland, Labrador, and St Pierre and Miquelon.\n"
+ form_gc_gre_coring_states_tt:0 "Gain cores on Greenland.\n"
+ form_greater_canada:0 "Form Greater Canada"
+ form_greater_canada_category:0 "Form Greater Canada"
+ 
+ form_gc_sov_coring_states_tt:0 "Gains cores on all required Soviet states.\n"
+ form_gc_est_claiming_states_tt:0 "Gains claims on all Estonian cores.\n"
+ form_greater_finland:0 "Form Greater Finland"
+ form_greater_finland_category:0 "Form Greater Finland"
+ intagrate_sov_greater_finland:0 "Intagrate further Russian lands into [ROOT.GetName]"
+ form_gc_est_coring_states_tt:0 "Gains cores on all Estonian cores.\n"
+ intagrate_est_greater_finland:0 "Intagrate Estoniain into Finland"
+ est_greater_finland_landbridge:0 "Finno-Estoniain landbridge"
+ inta_landbridge:0 "Intagrate the Finno-Estoniain landbridge"
+ inta_secure_len:0 "Intagrate and secure Leningrad "

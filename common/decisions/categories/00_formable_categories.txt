@@ -1,0 +1,12 @@
+form_greater_canada_category = {
+
+	icon = GFX_category_icon
+
+	picture = GFX_category_image_template
+}
+form_greater_finland_category = {
+
+	icon = GFX_category_icon
+
+	picture = GFX_category_image_template
+}

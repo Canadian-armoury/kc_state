@@ -1,0 +1,24 @@
+state={
+	id=1065
+	name="STATE_1065"
+
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		591 3601 6611 11901 13252 
+	}
+	manpower=400326
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,88 @@
+﻿add_namespace = can_form_news
+add_namespace = fin_form_news
+
+# Formation of Greater Canada
+news_event = {
+	id = can_form_news.1
+	title = form_can_news.1.t
+	desc = form_can_news.1.desc
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = form_can_news.1.a
+		trigger = {
+			OR = {
+				original_tag = CAN
+			}
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = form_can_news.1.b
+		trigger = {
+			NOT = { original_tag = CAN }
+			NOT = { original_tag = USA }
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = form_can_news.1.c
+		trigger = {
+			OR = {
+				original_tag = USA
+			}
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = wtt_news.1.d
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+}
+news_event = {
+	id = fin_form_news.1
+	title = form_fin_news.1.t
+	desc = form_fin_news.1.desc
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = form_fin_news.1.a
+		trigger = {
+			OR = {
+				original_tag = FIN
+			}
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = form_fin_news.1.b
+		trigger = {
+			NOT = { original_tag = FIN }
+			NOT = { original_tag = SOV }
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = form_can_news.1.c
+		trigger = {
+			OR = {
+				original_tag = SOV
+			}
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = form_fin_news.1.d
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+}

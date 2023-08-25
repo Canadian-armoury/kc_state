@@ -1,0 +1,358 @@
+
+###CANADA###
+
+form_greater_canada_category = {
+
+	form_greater_canada = {
+
+		icon = GFX_decision_icon_default
+		allowed = {
+			OR = {
+				original_tag = CAN
+			}
+		}
+
+		available = {
+			controls_state = 463
+			controls_state = 357
+			controls_state = 331
+			controls_state = 332
+		}
+
+		visible = {
+			OR = {
+				original_tag = CAN
+			}
+			NOT = { has_global_flag = form_greater_canada }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = CAN_GREATER
+			# Usa
+			custom_effect_tooltip = form_gc_usa_coring_states_tt
+			custom_effect_tooltip = form_gc_can_coring_states_tt
+			custom_effect_tooltip = form_gc_gre_coring_states_tt
+			hidden_effect = {
+				463 = { add_core_of = ROOT }
+				357 = { add_core_of = ROOT }
+				331 = { add_core_of = ROOT }
+				332 = { add_core_of = ROOT }
+				730 = { add_core_of = ROOT }
+				101 = { add_core_of = ROOT }
+				945 = { add_core_of = ROOT }
+				946 = { add_core_of = ROOT }
+				1035 = { add_core_of = ROOT }
+				389 = { add_core_of = ROOT }
+				954 = { add_core_of = ROOT }
+				958 = { add_core_of = ROOT }
+				952 = { add_core_of = ROOT }
+				953 = { add_core_of = ROOT }
+				957 = { add_core_of = ROOT }
+				
+			}
+			hidden_effect = {
+				news_event = { id = can_form_news.1 hours = 6 }
+				set_global_flag = form_greater_canada
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+###FINLAND###
+
+form_greater_finland_category = {
+
+	form_greater_finland = {
+
+		icon = GFX_decision_icon_default
+		allowed = {
+			OR = {
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			controls_state = 940
+			controls_state = 941
+			controls_state = 988
+		}
+
+		visible = {
+			OR = {
+				original_tag = FIN
+			}
+			NOT = { has_global_flag = form_greater_finland }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = FIN_GREATER
+			# Ussr
+			custom_effect_tooltip = form_gc_sov_coring_states_tt
+			custom_effect_tooltip = form_gc_est_claiming_states_tt
+			hidden_effect = {
+				
+				940 = { add_core_of = ROOT }
+				941 = { add_core_of = ROOT }
+				988 = { add_core_of = ROOT }
+
+				ROOT = { add_state_claim = 811 }
+				ROOT = { add_state_claim = 812 }
+				ROOT = { add_state_claim = 813 }
+				ROOT = { add_state_claim = 191 }
+				ROOT = { add_state_claim = 13 }
+				
+			}
+			939 = { add_core_of = ROOT }
+			1025 = { add_core_of = ROOT }
+			
+			ROOT = { add_state_claim = 213 }
+			ROOT = { add_state_claim = 215 }
+			ROOT = { add_state_claim = 216 }			
+			hidden_effect = {
+				news_event = { id = fin_form_news.1 hours = 6 }
+				set_global_flag = form_greater_finland
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	intagrate_sov_greater_finland = {
+
+		icon = GFX_decision_icon_default
+		allowed = {
+			has_global_flag = form_greater_finland
+			OR = {
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			controls_state = 213
+			controls_state = 215
+			controls_state = 216
+		}
+
+		visible = {
+			OR = {
+				original_tag = FIN
+			}
+			has_global_flag = form_greater_finland
+			NOT = { has_global_flag = inta_sov }
+		}
+		
+		cost = 70
+
+		complete_effect = {
+			# Ussr
+			custom_effect_tooltip = form_gc_sov_coring_states_tt
+			hidden_effect = {
+				
+				213 = { add_core_of = ROOT }
+				215 = { add_core_of = ROOT }
+				216 = { add_core_of = ROOT }
+				
+			}
+			add_stability = -0.05
+			hidden_effect = {
+				set_global_flag = inta_sov
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	intagrate_est_greater_finland = {
+
+		icon = GFX_decision_icon_default
+		allowed = {
+			has_global_flag = form_greater_finland
+			OR = {
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			controls_state = 811
+			controls_state = 812
+			controls_state = 813
+			controls_state = 191
+			controls_state = 13
+		}
+
+		visible = {
+			OR = {
+				original_tag = FIN
+			}
+			has_global_flag = form_greater_finland
+			NOT = { has_global_flag = inta_est }
+		}
+		
+		cost = 50
+
+		complete_effect = {
+			set_cosmetic_tag = FIN_EST_GREATER
+			# Est
+			custom_effect_tooltip = form_gc_est_coring_states_tt
+			hidden_effect = {
+				
+				811 = { add_core_of = ROOT }
+				812 = { add_core_of = ROOT }
+				813 = { add_core_of = ROOT }
+				191 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+			}
+			add_stability = -0.05
+			hidden_effect = {
+				set_global_flag = inta_est
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	est_greater_finland_landbridge = {
+
+		icon = GFX_decision_icon_default
+		allowed = {
+			has_global_flag = inta_est
+			OR = {
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			has_global_flag = inta_est
+			controls_state = 811
+			controls_state = 812
+			controls_state = 813
+			controls_state = 191
+			controls_state = 13
+		}
+
+		visible = {
+			OR = {
+				original_tag = FIN
+			}
+			has_global_flag = inta_est
+			NOT = { has_global_flag = land_bridge }
+		}
+		
+		cost = 50
+
+		complete_effect = {
+			# SOV
+			ROOT = { add_state_claim = 208 }
+			ROOT = { add_state_claim = 209 }
+			ROOT = { add_state_claim = 195 }
+			ROOT = { add_state_claim = 987 }
+			add_stability = 0.05
+			hidden_effect = {
+				set_global_flag = land_bridge
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	inta_landbridge = {
+
+		icon = GFX_decision_icon_default
+		allowed = {
+			has_global_flag = land_bridge
+			OR = {
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			controls_state = 208
+			controls_state = 209
+			controls_state = 987
+		}
+
+		visible = {
+			OR = {
+				original_tag = FIN
+			}
+			has_global_flag = land_bridge
+			NOT = { has_global_flag = inta_landbridge }
+		}
+		
+		cost = 60
+
+		complete_effect = {
+			custom_effect_tooltip = form_gc_sov_coring_states_tt
+			# SOV
+			
+			add_stability = -0.05
+			hidden_effect = {
+				set_global_flag = inta_landbridge
+				208 = { add_core_of = ROOT }
+				209 = { add_core_of = ROOT }
+				987 = { add_core_of = ROOT }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	inta_secure_len = {
+
+		icon = GFX_decision_icon_default
+		allowed = {
+			OR = {
+				original_tag = FIN
+			}
+		}
+
+		available = {
+			controls_state = 195
+		}
+
+		visible = {
+			OR = {
+				original_tag = FIN
+			}
+			has_global_flag = land_bridge
+			NOT = { has_global_flag = sec_len }
+		}
+		
+		cost = 60
+		days_remove = 20
+		
+		remove_effect = {
+			# SOV
+			195 = { add_core_of = ROOT }
+			ROOT = { add_state_claim = 244 }
+			ROOT = { add_state_claim = 263 }
+			ROOT = { add_state_claim = 264 }
+			set_province_name = { id = 	3151 name = "Simograd" }
+			add_stability = -0.05
+			hidden_effect = {
+				set_global_flag = sec_len
+			}
+		}
+
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
